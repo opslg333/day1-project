@@ -14,5 +14,5 @@ window.addEventListener('DOMContentLoaded', () => {
   const hero = document.querySelector('.hero-fade');
   setTimeout(() => {
     hero.classList.add('visible');
-  }, 200);
+  }, 400);
 });
