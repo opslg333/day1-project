@@ -1,0 +1,1 @@
+The hardest thing was understanding what actually was needed to be done the first i will check next time something breaks is run terminal and send it to claude and the best thing i learnt was to quickly replace using cmd f 
