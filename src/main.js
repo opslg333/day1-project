@@ -6,6 +6,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.fade-up').forEach((el) => {
+document.querySelectorAll('.fade-up').forEach((el, index) => {
+  el.style.transitionDelay = `${index * 150}ms`;
   observer.observe(el);
-});``
+});
